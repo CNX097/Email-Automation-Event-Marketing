@@ -8,3 +8,4 @@ node_modules/
 .clasprc.json
 email-preview.html
 *-workspace/
+dist/
