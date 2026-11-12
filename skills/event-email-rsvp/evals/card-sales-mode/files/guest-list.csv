@@ -1,0 +1,6 @@
+THÔNG TIN KHÁCH MỜI,,,,,,PHỤ TRÁCH,,KẾT QUẢ,,
+STT,Họ tên khách,Chức vụ,Công ty,Email,SĐT,Nhân viên phụ trách,Ghi chú,Đã mời,Xác nhận tham dự,Không tham dự
+1,Chị Lê Thu Hà,HR Manager,Công ty TNHH Demo Một,ha.le@demo-one.example.com,0900000001,Nguyễn Văn An,Đã gọi 05/11,FALSE,FALSE,FALSE
+2,Phạm Quốc Bảo,CEO,Công ty CP Demo Hai,bao.pham@demo-two.example.com,0900000002,Trần Thị Bình,,FALSE,FALSE,FALSE
+3,Ms Vy,Talent Acquisition Lead,Demo Three Ltd,vy@demo-three.example.com,0900000003,Nguyễn Văn An,,FALSE,FALSE,FALSE
+4,Hoàng Minh Châu,HR Director,Tập đoàn Demo Bốn,"chau.hoang@demo-four.example.com, hr@demo-four.example.com",0900000004,Trần Thị Bình,Gửi cả email HR chung,FALSE,FALSE,FALSE

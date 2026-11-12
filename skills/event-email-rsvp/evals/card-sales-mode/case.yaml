@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: card-sales-mode
+expected_outcome: |
+  A local Apps Script project bound-ready for the KH_T11 tab: columns mapped by the exact row-2 headers
+  (incl. the existing result columns), each Sales sends from their own mailbox, an inline personalised card
+  using the given Canva name-box geometry, two one-click RSVP buttons with per-guest codes and link-scanner
+  protection, TEST mode on by default. Email copy follows the marketing template. The 17:00 (email) vs 17:30
+  (card) end-time conflict is raised with the user, not silently resolved. An email preview is produced and
+  the remaining Google-side steps are listed. Nothing is sent and no Google service is touched.
+context:
+  scaffold_script: place-files.sh

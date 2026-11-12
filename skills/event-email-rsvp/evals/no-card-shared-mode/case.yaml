@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: no-card-shared-mode
+expected_outcome: |
+  A local Apps Script project for the "Form Responses 1" tab (header row 1, data from row 2) that sends every
+  invitation from the shared mailbox events@clb-mau.example.edu.vn, with no card and no per-Sales column.
+  Result columns (invited / confirmed / declined) are added automatically without touching existing columns.
+  The email keeps the template's friendly "bạn" voice (greeting "Chào bạn <name>", never "Quý Anh/Chị"),
+  has two one-click RSVP buttons with per-guest codes, a correct calendar link for Sat 05/12/2026
+  08:30–11:30, and TEST mode on by default. An email preview and the next Google-side steps are provided.
+context:
+  scaffold_script: place-files.sh

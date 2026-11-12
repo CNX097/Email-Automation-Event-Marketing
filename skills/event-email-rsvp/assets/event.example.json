@@ -1,0 +1,84 @@
+{
+  "event": {
+    "code": "SUM26",
+    "name": "SAMPLE SUMMIT 2026",
+    "title": "SAMPLE SUMMIT 2026: THE FUTURE OF WORK",
+    "subject": "[Công ty Mẫu] Thư mời SAMPLE SUMMIT 2026 | 08:00 - 12:00 Thứ Sáu 23/10",
+    "preheader": "Thư mời SAMPLE SUMMIT 2026 · 08:00 - 12:00 Thứ Sáu 23/10 · Khách sạn Mẫu, TP. Hồ Chí Minh",
+    "timeText": "08:00 - 12:00, Thứ Sáu, ngày 23/10/2026",
+    "start": "2026-10-23T08:00",
+    "end": "2026-10-23T12:00",
+    "place": "Khách sạn Mẫu – Sảnh A, 1 Đường Mẫu, Quận 1, TP. Hồ Chí Minh",
+    "mapQuery": "Khách sạn Mẫu 1 Đường Mẫu Quận 1 TP Hồ Chí Minh",
+    "orgName": "Công ty Mẫu",
+    "greeting": "Kính gửi",
+    "salutation": "Quý Anh/Chị",
+    "pronoun": "Anh/Chị",
+    "intro": "Cảm ơn Anh/Chị đã dành thời gian trao đổi với Công ty Mẫu. Ban tổ chức trân trọng kính mời Anh/Chị tham dự",
+    "highlightsTitle": "Chương trình hứa hẹn mang lại cho Anh/Chị những giá trị thiết thực:",
+    "highlights": [
+      {
+        "title": "Kiến thức thực chiến",
+        "text": "Chia sẻ từ chuyên gia đầu ngành, áp dụng được ngay cho doanh nghiệp."
+      },
+      {
+        "title": "Mở rộng kết nối",
+        "text": "Giao lưu cùng lãnh đạo và chuyên gia trong lĩnh vực."
+      }
+    ],
+    "note": "Vui lòng có mặt lúc 07:45 để check-in thuận tiện.",
+    "hotline": "Ms Mẫu – 0900 000 000",
+    "links": [
+      {
+        "label": "Fanpage",
+        "url": "https://www.facebook.com/"
+      }
+    ],
+    "closing": "Rất mong được đón tiếp Anh/Chị tại sự kiện!",
+    "regards": "Trân trọng,",
+    "signOff": "Ban tổ chức SAMPLE SUMMIT 2026 – Công ty Mẫu",
+    "colors": {
+      "dark": "#1e3a8a",
+      "accent": "#2563eb",
+      "soft": "#eff6ff",
+      "border": "#bfdbfe",
+      "page": "#f1f5f9"
+    }
+  },
+  "settings": {
+    "dataTab": "DSKH",
+    "groupRow": 1,
+    "headerRow": 2,
+    "firstDataRow": 3,
+    "menuName": "SỰ KIỆN",
+    "senderMode": "sales",
+    "senderSuffix": "Công ty Mẫu",
+    "sharedSender": "",
+    "replyTo": "",
+    "cardEnabled": true,
+    "card": {
+      "pageWidthPx": 1064,
+      "nameBox": {
+        "left": 62,
+        "top": 163,
+        "width": 940,
+        "height": 120
+      },
+      "fontSize": 80,
+      "fitChars": 22,
+      "font": "Great Vibes",
+      "color": "#ffffff"
+    }
+  },
+  "columns": {
+    "name": "Họ tên KH",
+    "email": "Email KH",
+    "company": "Tên công ty",
+    "sales": "Sales phụ trách"
+  },
+  "resultColumns": {
+    "invited": "Đã gửi email mời",
+    "confirmed": "KH xác nhận tham dự",
+    "declined": "KH không tham dự"
+  }
+}

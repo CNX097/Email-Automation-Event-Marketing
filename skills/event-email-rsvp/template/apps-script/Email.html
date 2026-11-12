@@ -1,0 +1,67 @@
+<div lang="vi" style="background:{{C_PAGE}};padding:24px 12px;font-family:Arial,Helvetica,sans-serif;color:#1f2937">
+<div style="display:none;max-height:0;overflow:hidden;mso-hide:all">{{PREHEADER}}</div>
+{{TEST_BANNER}}
+<table role="presentation" width="640" align="center" cellpadding="0" cellspacing="0" style="width:100%;max-width:640px;margin:0 auto;background:#ffffff;border-radius:12px;border-collapse:separate;overflow:hidden">
+  <tr>
+    <td bgcolor="{{C_DARK}}" style="background:{{C_DARK}};padding:22px 28px;color:#ffffff">
+      <div style="font-size:12px;letter-spacing:1px;color:{{C_BORDER}};font-weight:bold">{{BRAND_LINE}}</div>
+      <div style="font-size:21px;font-weight:bold;margin-top:6px;color:#ffffff">{{EVENT_TITLE}}</div>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:26px 28px 8px;font-size:15px;line-height:1.6">
+      <p style="margin:0 0 14px">{{GREETING}},</p>
+      <p style="margin:0 0 10px">{{INTRO}} <b>{{EVENT_TITLE}}</b>:</p>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{{C_SOFT}};border-radius:10px">
+        <tr><td bgcolor="{{C_SOFT}}" style="padding:12px 16px;font-size:15px;line-height:1.7">
+          📅 <b>Thời gian:</b> {{TIME}}
+          <a href="{{CAL_URL}}" style="color:{{C_ACCENT}};font-size:13px;white-space:nowrap">(Thêm vào lịch)</a><br>
+          📍 <b>Địa điểm:</b> <a href="{{MAP_URL}}" style="color:#1f2937;text-decoration:none">{{PLACE}}</a>
+          <a href="{{MAP_URL}}" style="color:{{C_ACCENT}};font-size:13px;white-space:nowrap">(Xem bản đồ)</a>
+        </td></tr>
+      </table>
+
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;border:1px solid {{C_BORDER}};border-radius:10px">
+        <tr><td align="center" style="padding:18px 14px">
+          <p style="margin:0 0 4px;font-weight:bold">Vui lòng bấm nút dưới đây để xác nhận tham dự:</p>
+          <p style="margin:0 0 14px;font-size:13px;color:#6b7280">Chỉ cần bấm 1 lần, phản hồi được ghi nhận ngay. Muốn đổi lựa chọn, {{PRONOUN}} bấm nút còn lại.</p>
+          <table role="presentation" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto">
+            <tr><td align="center" bgcolor="{{C_ACCENT}}" style="background:{{C_ACCENT}};border-radius:8px;padding:12px 28px">
+              <a href="{{CONFIRM_URL}}" style="display:inline-block;color:#ffffff;text-decoration:none;font-weight:bold;font-size:15px">Xác nhận tham dự</a>
+            </td></tr>
+          </table>
+          <table role="presentation" align="center" cellpadding="0" cellspacing="0" style="margin:10px auto 0">
+            <tr><td align="center" bgcolor="#ffffff" style="background:#ffffff;border:1px solid {{C_ACCENT}};border-radius:8px;padding:11px 27px">
+              <a href="{{DECLINE_URL}}" style="display:inline-block;color:{{C_ACCENT}};text-decoration:none;font-weight:bold;font-size:15px">Không thể tham dự</a>
+            </td></tr>
+          </table>
+        </td></tr>
+      </table>
+
+      <!--CARD-->
+      <p style="margin:0 0 8px;font-weight:bold">Thiệp mời dành riêng cho {{PRONOUN}}:</p>
+      <img src="cid:thiep" alt="{{CARD_ALT}}" width="560" style="display:block;width:100%;max-width:560px;height:auto;margin:0 auto 20px;border-radius:8px">
+      <!--/CARD-->
+
+      <!--HIGHLIGHTS-->
+      <p style="margin:0 0 8px">{{HIGHLIGHTS_TITLE}}</p>
+      <!--HIGHLIGHT-->
+      <p style="margin:0 0 8px">🔹 <b>{{H_TITLE}}:</b> {{H_TEXT}}</p>
+      <!--/HIGHLIGHT-->
+      <div style="height:8px;line-height:8px">&nbsp;</div>
+      <!--/HIGHLIGHTS-->
+
+      <!--NOTE-->
+      <p style="margin:0 0 16px">📌 <b>Lưu ý:</b> {{NOTE}}</p>
+      <!--/NOTE-->
+      <p style="margin:0 0 6px">Nếu {{PRONOUN}} cần hỗ trợ thêm hoặc có thay đổi về lịch tham dự, vui lòng liên hệ:</p>
+      <p style="margin:0 0 16px">
+        <!--HOTLINE-->📞 Hotline: {{HOTLINE}}<br><!--/HOTLINE-->
+        <!--LINKS--><!--LINK-->🔗 {{L_LABEL}}: <a href="{{L_URL}}" style="color:{{C_ACCENT}}">{{L_URL}}</a><br><!--/LINK--><!--/LINKS-->
+      </p>
+      <p style="margin:0 0 16px">{{CLOSING}}</p>
+      <p style="margin:0 0 20px"><!--REGARDS-->{{REGARDS}}<br><!--/REGARDS--><b>{{SIGN_OFF}}</b></p>
+    </td>
+  </tr>
+</table>
+</div>

@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+*.skill
+# project dựng ra cho từng sự kiện / thông tin đăng nhập — không đưa lên repo công khai
+.clasp.json
+.clasprc.json
+email-preview.html
+*-workspace/
